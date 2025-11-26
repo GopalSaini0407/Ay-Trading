@@ -793,6 +793,9 @@ footer .footer-heading{
    .contact-us-card{
     margin-left: 0px;
    }
+   .why-choose-left .common-btn{
+    margin-bottom: 1rem;
+   }
   }
   
 
@@ -861,6 +864,9 @@ box-shadow: 0 0 10px rgba(196, 42, 42, 0.3);
     .search-btn{
         padding: 9px 15px !important;
     }
+    .contact-submit-btn {
+        margin-bottom: 1rem;
+      }
 }
 @media (max-width: 768px) {
     .contact-submit-btn{
@@ -1465,4 +1471,7 @@ cursor: pointer;
     font-size: 14px;
     padding: 4px 12px;
   }
+  .why-choose-left .common-btn{
+    margin-bottom: 0rem !important;
+   }
   }
