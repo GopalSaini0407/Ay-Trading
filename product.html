@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>AY Trading</title>
+      <meta content="width=device-width, initial-scale=1.0" name="viewport">
+      <meta content="" name="keywords">
+      <meta content="" name="description">
+      <!-- Favicon -->
+      <link href="img/favicon.ico" rel="icon">
+      <!-- Google Web Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link
+         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <!-- Icon Font Stylesheet -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+      <!-- Libraries Stylesheet -->
+      <link href="lib/animate/animate.min.css" rel="stylesheet">
+      <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+      <!-- Slick CSS -->
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+      <!-- Customized Bootstrap Stylesheet -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Template Stylesheet -->
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <!-- Spinner Start -->
+      <div id="spinner"
+         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+      </div>
+      <!-- Spinner End -->
+      <!-- Topbar Start -->
+      <div class="topbar">
+         <div class="container">
+            <div class="row g-0 d-none d-lg-flex">
+               <div class="col-lg-12">
+                  <div class="h-100 d-inline-flex align-items-center text-white w-100 d-flex justify-content-between">
+                     <div>
+                        <a class="btn btn-link text-dark" href=""><span class="me-2 d-inline-flex"><i class="fas fa-phone-alt"></i> </span>Get in Touch: +91-1234567890</a>
+                        <a class="btn btn-link text-dark" href=""><span class="me-1 d-inline-flex"><i class="fas fa-envelope"></i> </span> Email: info@aytradingco.com</a>   
+                     </div>
+                     <div>
+                        <a class="btn btn-link text-dark" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-link text-dark" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-link text-dark" href=""><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="btn btn-link text-white topbar-btn">Download Catalogue</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Topbar End -->
+      <!-- Navbar Start -->
+      <div class="narbar-box">
+         <div class="container">
+            <div class="d-flex align-items-center">
+               <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 w-100">
+                  <a href="index.html" class="navbar-brand me-0">
+                     <!-- <h1 class="text-white m-0">Industro</h1> -->
+                     <img src="images/logo.png" alt="logo" width="70px">
+                  </a>
+                  <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                     <div class="navbar-nav ms-auto p-4 p-lg-0 d-flex justify-content-center w-100">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="product.html" class="nav-item nav-link active">Products</a>
+                        <a href="find-part.html" class="nav-item nav-link">Find Parts</a>
+                        <a href="index.html#brand" class="nav-item nav-link">Brands</a>
+                        <div class="nav-item dropdown">
+                           <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                           <div class="dropdown-menu bg-light m-0">
+                              <a href="faq.html" class="dropdown-item">FAQ</a>
+                              <a href="privacy-policy.html" class="dropdown-item">Privacy</a>
+                           </div>
+                        </div>
+                        <a href="contact-us.html" class="nav-item nav-link">Contact</a>
+                     </div>
+                     <div class="nav-right-icon d-flex justify-content-end">
+                        <!-- Add to Cart Icon -->
+                        <a class="btn btn-link text-dark" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                        </a>
+                        <!-- User Icon -->
+                        <a class="btn btn-link text-dark" href="#">
+                        <i class="fas fa-user"></i>
+                        </a>
+                     </div>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </div>
+      <!-- Navbar End -->
+      <div class="product-page">
+         <!-- Carousel Start -->
+         <div class="banner-slider">
+            <div class="banner-slide">
+               <img src="images/banner-3.jpg" alt="Banner 1">
+               <div class="container">
+                  <div class="banner-content">
+                     <h3 class="text-white">Find the Right 
+                        Spare Part Instantly
+                     </h3>
+                     <p class="text-white">
+                        Search our full wholesale inventory of earthmoving and backhoe loader spare parts.                 
+                     </p>
+                     <div class="search-wrapper">
+                        <div class="search-box">
+                           <i class="bi bi-search"></i>
+                           <input type="text" placeholder="Search here...">
+                        </div>
+                        <button class="search-btn">Search</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- Carousel End -->
+         <div class="container">
+            <!-- ================== FILTER + PRODUCTS SECTION ================== -->
+            <div class="row">
+               <!-- ⭐ Mobile Filter Button (Show only on Mobile) -->
+               <button class="btn btn-primary d-md-none mb-3 mobile-ft-btn" id="openFilters">
+               <i class="bi bi-funnel-fill"></i> Filters
+               </button>
+               <!-- ⭐ FILTER PANEL -->
+               <div class="col-md-3">
+                  <!-- Overlay for mobile -->
+                  <div id="filtersOverlay" class="filters-overlay"></div>
+                  <!-- Filters panel (slides on mobile) -->
+                  <div class="filters-wrapper" id="filtersPanel">
+                     <div class="form">
+                        <!-- Close button for mobile -->
+                        <span class="close-filters d-md-none">&times;</span>
+                        <div class="filters-header">
+                           <span class="arrow"><i class="bi bi-funnel-fill"></i></span> Filters
+                        </div>
+                        <!-- Applied Filters -->
+                        <div class="applied-filters mb-3">
+                           <p class="label d-flex justify-content-between p-2">
+                              Applied Filters
+                              <span class="clear-all">clear all</span>
+                           </p>
+                           <div class="tags">
+                              <span class="tag">All <i class="bi bi-x p-1"></i></span>
+                              <span class="tag">LAT <i class="bi bi-x p-1"></i></span>
+                              <span class="tag">Steel <i class="bi bi-x p-1"></i></span>
+                           </div>
+                        </div>
+                        <!-- Brand -->
+                        <div class="filter-block">
+                           <label class="filter-label">Brand</label>
+                           <select class="form-select">
+                              <option>All</option>
+                           </select>
+                        </div>
+                        <!-- Part Number -->
+                        <div class="filter-block">
+                           <label class="filter-label">Part Number</label>
+                           <select class="form-select">
+                              <option>All</option>
+                           </select>
+                        </div>
+                        <!-- Machine Type -->
+                        <div class="filter-block">
+                           <label class="filter-label">Machine Type</label>
+                           <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label">Steel</label>
+                           </div>
+                           <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label">Bronze</label>
+                           </div>
+                           <div class="form-check">
+                              <input class="form-check-input" type="checkbox" checked>
+                              <label class="form-check-label">Rubber</label>
+                           </div>
+                        </div>
+                        <!-- Item Code -->
+                        <div class="filter-block">
+                           <label class="filter-label">Item Code</label>
+                           <select class="form-select">
+                              <option>All</option>
+                           </select>
+                        </div>
+                        <!-- Price Range -->
+                        <div class="filter-block">
+                           <label class="filter-label">Price Range</label>
+                           <input type="range" class="form-range" id="priceRange" min="0" max="20000" value="5000">
+                           <div class="price-range-values d-flex justify-content-between">
+                              <span>1k</span>
+                              <span>20k</span>
+                           </div>
+                        </div>
+                        <!-- Stock Status -->
+                        <div class="filter-block">
+                           <label class="filter-label">Stock Status</label>
+                           <div class="form-check">
+                              <input class="form-check-input" type="checkbox" checked>
+                              <label class="form-check-label">In Stock</label>
+                           </div>
+                           <div class="form-check">
+                              <input class="form-check-input" type="checkbox">
+                              <label class="form-check-label">Out of Stock</label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- ⭐ PRODUCT SECTION -->
+               <div class="col-md-9">
+                  <div class="products-section">
+                     <div class="row">
+                        <!-- Product Card -->
+                        <div class="col-md-4">
+                           <div class="product-card text-start wow fadeInUp" data-wow-delay="0.1s">
+                              <div class="cat-img-box">
+                                 <img class="img-fluid" src="images/jcb-steel-brass-bush.png" alt="img">
+                              </div>
+                              <div class="product-footer bg-white">
+                                 <p class="product-title m-0 p-2">Bushes</p>
+                                 <div class="d-flex justify-content-between p-2">
+                                    <span class="product-price">₹12,499</span>
+                                    <span class="stock in-stock">In Stock</span>
+                                 </div>
+                                 <button class="btn add-cart-btn w-100">
+                                 <i class="bi bi-cart3"></i> Add To Cart
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- card) -->
+                        <div class="col-md-4">
+                           <div class="product-card text-start wow fadeInUp" data-wow-delay="0.3s">
+                              <div class="cat-img-box">
+                                 <img class="img-fluid" src="images/jcb-steel-brass-bush.png" alt="img">
+                              </div>
+                              <div class="product-footer bg-white">
+                                 <p class="product-title m-0 p-2">Bushes</p>
+                                 <div class="d-flex justify-content-between p-2">
+                                    <span class="product-price">₹12,499</span>
+                                    <span class="stock in-stock">In Stock</span>
+                                 </div>
+                                 <button class="btn add-cart-btn w-100">
+                                 <i class="bi bi-cart3"></i> Add To Cart
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- card-->
+                        <div class="col-md-4">
+                           <div class="product-card text-start wow fadeInUp" data-wow-delay="0.5s">
+                              <div class="cat-img-box">
+                                 <img class="img-fluid" src="images/jcb-steel-brass-bush.png" alt="img">
+                              </div>
+                              <div class="product-footer bg-white">
+                                 <p class="product-title m-0 p-2">Bushes</p>
+                                 <div class="d-flex justify-content-between p-2">
+                                    <span class="product-price">₹12,499</span>
+                                    <span class="stock out-stock">Out Of Stock</span>
+                                 </div>
+                                 <button class="btn add-cart-btn w-100">
+                                 <i class="bi bi-cart3"></i> Add To Cart
+                                 </button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- row end -->
+                  </div>
+               </div>
+            </div>
+            <!-- ================== FILTER + PRODUCTS END ================== -->
+         </div>
+         <!-- Our Brand Partnerships start -->
+         <div class="container-xxl py-5 brand-partnership">
+            <div class="container">
+               <div class="custom-line mb-3"></div>
+               <div class="d-flex justify-content-between  align-items-center  wow fadeInUp" data-wow-delay="0.1s">
+                  <h3 class=""> <span class="common-heading">Industry Brands  </span>We Serve</h3>
+               </div>
+               <div class="brand-container">
+                  <div dir="ltr">
+                     <div class="d-flex flex-wrap justify-content-start brand-row-one">
+                        <!-- Logo Item -->
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/comet-bulbs-brand-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/eaton-brand-electric-parts.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/suprajit-halogen-lights-brand.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/gna-shafts-brand-equipments.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/pricol-clusters-brand-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/yuken-brand-hydraulic-system.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/stl-brand-fasteners-nuts-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/fenner-v-belts-brand-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/parker-brand-machine-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/yuken-brand-hydraulic-system.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div dir="rtl">
+                     <div class="d-flex flex-wrap justify-content-start brand-row-two">
+                        <!-- Logo Item -->
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/corteco-seals-brand-equipment.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/bosch-diesel-fuel-injection-system.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/gates-brand-power-fluid-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/msl-brand-clutch-plate.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/carlisle-brakepads-brand-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/imperial-auto-brand-fluid-transmission.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/arb-brand-bearing-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/jayem-brand-earthmoving-equipments.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/danfoss-brand-casting-equipments.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                        <div class="logo-col">
+                           <div class="border p-3 text-center bg-white">
+                              <img src="images/partners/carlisle-brakepads-brand-components.png" class="img-fluid" alt="">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- get-support start -->
+         <div class="get-support pb-5">
+            <div class="container-xxl py-5">
+               <div class="container">
+                  <div class="custom-line mb-3"></div>
+                  <div class="d-flex mb-3 justify-content-between align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                     <h3 class="common-heading"><span class="grey-heading">Browse by </span>Groups</h3>
+                  </div>
+                  <!-- Cards Row -->
+                  <div class="row g-4">
+                     <!-- Card 1 -->
+                     <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                           <div class="card-body">
+                              <h6 class="fw-bold">Request a Quote</h6>
+                              <p class="text-muted mb-4">
+                                 Share your part list or bulk requirement for tailored pricing.
+                              </p>
+                              <button class="d-flex justify-content-between align-items-center common-btn p-2" style="width: 100%;">
+                              Get a Quote
+                              <span class="flex-shrink-0 btn-square">
+                              <i class="fas fa-arrow-up arrow-45"></i>
+                              </span>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Card 2 -->
+                     <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                           <div class="card-body">
+                              <h6 class="fw-bold">Identify Your Part</h6>
+                              <p class="text-muted mb-4">
+                                 Send us your part number, photo, or machine model we’ll match the right component.
+                              </p>
+                              <button class="d-flex justify-content-between align-items-center common-btn p-2" style="width: 100%;">
+                              Find Parts
+                              <span class="flex-shrink-0 btn-square">
+                              <i class="fas fa-arrow-up arrow-45"></i>
+                              </span>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- Card 3 -->
+                     <div class="col-md-4">
+                        <div class="card h-100 shadow-sm border-0">
+                           <div class="card-body">
+                              <h6 class="fw-bold">Talk to Our Team</h6>
+                              <p class="text-muted mb-4">
+                                 For urgent help or technical issues, our experts are
+                                 ready to assist.
+                              </p>
+                              <button class="d-flex justify-content-between align-items-center common-btn p-2" style="width: 100%;">
+                              Call Us
+                              <span class="flex-shrink-0 btn-square">
+                              <i class="fas fa-arrow-up arrow-45"></i>
+                              </span>
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- get-support end -->
+         <!-- Our Brand Partnerships end -->
+         <div class="top-footer">
+            <div class="container h-100">
+               <div class="row h-100">
+                  <div class="col-md-6 top-footer-left d-flex justify-content-center align-items-center h-100 wow fadeInUp"  data-wow-delay="0.3s">
+                     <div class="d-flex justify-content-center align-items-center text-white">
+                        <span class="text-white fw-bold me-3">Follow Us:</span>
+                        <a class="btn btn-link bg-white rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-link bg-white rounded-circle me-2" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-link bg-white rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
+                     </div>
+                  </div>
+                  <div class="col-md-6 top-footer-right">
+                     <div class="subcripiton-box p-5 wow fadeInUp"  data-wow-delay="0.3s">
+                        <h3 class="text-white">Your Partner in Performance <br> and Productivity</h3>
+                        <div class="subcribe d-flex justify-content-between align-items-center bg-white px-3 py-2">
+                           <p class="m-0">Subscribe to our newsletter</p>
+                           <button class="btn">Send</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Footer Start -->
+      <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
+         <div class="container-fluid py-5">
+            <div class="row g-5">
+               <!-- About Us Box (Bootstrap 5 Footer Section) -->
+               <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.1s" >
+                  <div class="footer-about bg-light p-4 rounded shadow-sm h-100">
+                     <h5 class="footer-heading mb-3">About Us</h5>
+                     <p class="mb-3 text-muted" style="font-size: 15px; line-height: 1.6;">
+                        Delivering high-performance earthmoving machine components since 1999. 
+                        We supply alternative spare parts for <strong>JCB*</strong>, <strong>L&T*</strong>, 
+                        <strong>Escorts*</strong>, and <strong>CAT*</strong> across India, ensuring reliability, 
+                        quality, and trust in every deal.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-lg-2 col-6 wow fadeInUp" data-wow-delay="0.3s">
+                  <h5 class="footer-heading mb-4">Quick Links</h5>
+                  <a class="btn btn-link" href="about.html">About Us</a>
+                  <a class="btn btn-link" href="product.html">Products</a>
+                  <a class="btn btn-link" href="find-part-list.html">Catalogue</a>
+                  <a class="btn btn-link" href="find-part.html">Find Parts</a>
+                  <a class="btn btn-link" href="contact-us.html">Contact Us</a>
+               </div>
+               <div class="col-lg-2 col-12 wow fadeInUp" data-wow-delay="0.5s">
+                  <h5 class="footer-heading mb-4">Support</h5>
+                  <!-- <a class="btn btn-link" href=""> Dealer Network</a> -->
+                  <a class="btn btn-link" href="faq.html">FAQs</a>
+                  <a class="btn btn-link" href="privacy-policy.html">Terms & Conditions</a>
+                  <a class="btn btn-link" href="privacy-policy.html">Privacy Policy</a>
+               </div>
+               <div class="col-lg-3 col-12 wow fadeInUp" data-wow-delay="0.7s">
+                  <h5 class="footer-heading mb-4">Popular Categories</h5>
+                  <a class="btn btn-link" href="find-part.html">Engine Components</a>
+                  <a class="btn btn-link" href="find-part.html">Bushes & Pins</a>
+                  <a class="btn btn-link" href="find-part.html">Transmission Parts</a>
+                  <a class="btn btn-link" href="find-part.html">Electrical Components</a>
+                  <a class="btn btn-link" href="product.html">Filters & Seal Kits</a>
+               </div>
+               <!-- <div class="col-lg-1 col-md-6">
+                  </div> -->
+               <div class="col-lg-2 col-md-6 d-flex justify-content-end wow fadeInUp" data-wow-delay="0.9s">
+                  <div>
+                     <h5 class="footer-heading mb-4">Contact Information</h5>
+                     <div class="contact-details bg-white">
+                        <div class="contact-details-body mt-3 d-flex">
+                           <span class="me-3 d-inline-flex"><i class="fas fa-phone-alt"></i> </span>
+                           <span>
+                              <h6>Phone Number</h6>
+                              <p>(+91) 1234 5678 90</p>
+                           </span>
+                        </div>
+                        <div class="contact-details-body d-flex">
+                           <span class="me-3 d-inline-flex"><i class="fas fa-envelope"></i> </span>
+                           <span>
+                              <h6>E-Mail</h6>
+                              <p>info@aytradingco.com</p>
+                           </span>
+                        </div>
+                        <div class="contact-details-body d-flex">
+                           <span class="me-3 d-inline-flex"><i class="fas fa-map-marker-alt"></i>  </span>
+                           <span>
+                              <h6>Address</h6>
+                              <p>AY Trading Co.
+                                 Plot No. 845, Industrial Area, Faridabad, Haryana, India
+                              </p>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Footer End -->
+      <!-- Copyright Start -->
+      <div class="copyright py-4">
+         <div class="container">
+            <div class="d-flex justify-content-between align-items-center copyright-details">
+               <span class="text-white">Copyright 2025 © Aytrading. All right reserved.</span>
+               <div class="copyright-img-box">
+                  <img src="images/copyright-img.png" alt="img">
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Copyright End -->
+      <!-- Back to Top -->
+      <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+         class="bi bi-arrow-up"></i></a>
+      <!-- JavaScript Libraries -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/wow/wow.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/waypoints/waypoints.min.js"></script>
+      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+      <script src="lib/counterup/counterup.min.js"></script>
+      <!-- Template Javascript -->
+      <script src="js/main.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
